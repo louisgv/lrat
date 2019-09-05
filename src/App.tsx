@@ -9,7 +9,7 @@ import { Footer } from 'components/Footer'
 
 import { Text } from 'styles'
 
-import { version } from '../package.json'
+import { name, version } from '../package.json'
 
 const date = new Date()
 const year = date.getFullYear()
@@ -20,7 +20,8 @@ const App: React.FC = () => (
       <Global />
       <Header>HELLO</Header>
       <Footer>
-        <Text color="error">v{version}</Text> ©{year} L
+        <Text color="primary">{name}</Text> <Text color="error">v{version}</Text>{' '}
+        ©{year} L
       </Footer>
     </>
   </ThemeProvider>
