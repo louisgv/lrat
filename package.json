@@ -18,7 +18,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "deploy": "npx gh-pages -d build"
+    "deploy": "npx gh-pages -d build",
+    "version": "npx auto-changelog -p && git add CHANGELOG.md"
   },
   "eslintConfig": {
     "extends": "react-app"
