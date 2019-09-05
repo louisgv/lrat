@@ -14,11 +14,12 @@
     "typescript": "3.6.2"
   },
   "scripts": {
+    "predeploy": "yarn build",
+    "deploy": "npx gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "deploy": "npx gh-pages -d build",
     "version": "npx auto-changelog -p && git add CHANGELOG.md"
   },
   "eslintConfig": {
