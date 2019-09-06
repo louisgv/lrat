@@ -73,7 +73,7 @@ export const Global = createGlobalStyle`
 
   a:hover,
   a:visited:hover {
-    color: ${p => p.theme.color.lightPrimary};
+    color: ${p => p.theme.color.darkPrimary};
   }
 
   ::-webkit-scrollbar {
@@ -86,7 +86,7 @@ export const Global = createGlobalStyle`
   }
 
   ::-webkit-scrollbar-thumb {
-    background: ${p => p.theme.color.lightPrimary};
+    background: ${p => p.theme.color.darkPrimary};
   }
 `
 

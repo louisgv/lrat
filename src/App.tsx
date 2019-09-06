@@ -9,7 +9,7 @@ import { Footer } from 'components/Footer'
 
 import { Text } from 'styles'
 
-import { name, version, repository } from '../package.json'
+import { version, repository } from '../package.json'
 
 const date = new Date()
 const year = date.getFullYear()
@@ -20,16 +20,15 @@ const App: React.FC = () => (
       <Global />
       <Header>Hi</Header>
       <Footer>
-        © {year} L <Separator width={0.5} />
+        <Text color="primary">© {year} L</Text> <Separator width={0.5} />
+        <Separator width={0.5} />
         <a
           href={`https://github.com/${repository}`}
           target="_blank"
           rel="noopener noreferrer"
         >
-          {name}
+          https://github.com/{repository}@{version}
         </a>
-        <Separator width={0.5} />
-        <Text color="error">v{version}</Text>
       </Footer>
     </>
   </ThemeProvider>
