@@ -29,6 +29,10 @@ declare module 'styled-components' {
       modal: number
     }
 
+    fontSize: {
+      header: number
+    }
+
     content: {}
 
     font: {

@@ -1,5 +1,11 @@
 declare type CommonColor =
+  | 'text'
+  | 'primaryText'
+  | 'secondaryText'
   | 'primary'
+  | 'darkPrimary'
+  | 'lightPrimary'
+  | 'accentColor'
   | 'idle'
   | 'error'
   | 'success'
