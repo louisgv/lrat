@@ -1,7 +1,8 @@
 {
   "name": "lra",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "homepage": "https://louisgv.ga/lra",
+  "repository": "louisgv/lra",
   "private": true,
   "dependencies": {
     "@craco/craco": "^5.4.0",
