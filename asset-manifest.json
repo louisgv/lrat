@@ -1,16 +1,13 @@
 {
   "files": {
-    "main.css": "/taimu.ga/static/css/main.19393e92.chunk.css",
-    "main.js": "/taimu.ga/static/js/main.16a2cb27.chunk.js",
-    "main.js.map": "/taimu.ga/static/js/main.16a2cb27.chunk.js.map",
-    "runtime~main.js": "/taimu.ga/static/js/runtime~main.72921d27.js",
-    "runtime~main.js.map": "/taimu.ga/static/js/runtime~main.72921d27.js.map",
-    "static/js/2.f713d215.chunk.js": "/taimu.ga/static/js/2.f713d215.chunk.js",
-    "static/js/2.f713d215.chunk.js.map": "/taimu.ga/static/js/2.f713d215.chunk.js.map",
-    "index.html": "/taimu.ga/index.html",
-    "precache-manifest.67c5a4a34d9a7e3e6d5e44669d9f280e.js": "/taimu.ga/precache-manifest.67c5a4a34d9a7e3e6d5e44669d9f280e.js",
-    "service-worker.js": "/taimu.ga/service-worker.js",
-    "static/css/main.19393e92.chunk.css.map": "/taimu.ga/static/css/main.19393e92.chunk.css.map",
-    "static/media/logo.svg": "/taimu.ga/static/media/logo.5d5d9eef.svg"
+    "main.js": "/lra/static/js/main.ca7c153a.chunk.js",
+    "main.js.map": "/lra/static/js/main.ca7c153a.chunk.js.map",
+    "runtime~main.js": "/lra/static/js/runtime~main.0b1a6807.js",
+    "runtime~main.js.map": "/lra/static/js/runtime~main.0b1a6807.js.map",
+    "static/js/2.c6df98b7.chunk.js": "/lra/static/js/2.c6df98b7.chunk.js",
+    "static/js/2.c6df98b7.chunk.js.map": "/lra/static/js/2.c6df98b7.chunk.js.map",
+    "index.html": "/lra/index.html",
+    "precache-manifest.60f23601d8a5238692d33363d91a4bbc.js": "/lra/precache-manifest.60f23601d8a5238692d33363d91a4bbc.js",
+    "service-worker.js": "/lra/service-worker.js"
   }
 }
