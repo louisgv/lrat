@@ -1,7 +1,7 @@
 {
-  "name": "taimu.ga",
+  "name": "lra",
   "version": "0.1.2",
-  "homepage": "https://louisgv.ga/taimu.ga",
+  "homepage": "https://louisgv.ga/lra",
   "private": true,
   "dependencies": {
     "@craco/craco": "^5.4.0",
