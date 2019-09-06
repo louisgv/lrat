@@ -2,7 +2,7 @@ import React from 'react'
 
 import { hot } from 'react-hot-loader/root'
 import { ThemeProvider } from 'styled-components/macro'
-import { theme, Global } from './styles'
+import { theme, Global, Separator } from './styles'
 
 import { Header } from 'components/Header'
 import { Footer } from 'components/Footer'
@@ -18,10 +18,12 @@ const App: React.FC = () => (
   <ThemeProvider theme={theme}>
     <>
       <Global />
-      <Header>HELLO</Header>
+      <Header>Hi</Header>
       <Footer>
-        <Text color="primary">{name}</Text> <Text color="error">v{version}</Text>{' '}
-        ©{year} L
+        © {year} L <Separator width={0.5} />
+        <Text color="primary">{name}</Text>
+        <Separator width={0.5} />
+        <Text color="error">v{version}</Text>
       </Footer>
     </>
   </ThemeProvider>

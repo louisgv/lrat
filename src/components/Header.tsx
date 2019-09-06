@@ -9,4 +9,5 @@ export const Header = styled.header`
   color: ${p => p.theme.color.text};
 
   font-size: ${p => p.theme.fontSize.header}em;
+  font-weight: 100;
 `

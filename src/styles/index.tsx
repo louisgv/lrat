@@ -90,6 +90,11 @@ export const Global = createGlobalStyle`
   }
 `
 
+export const Separator = styled.div<SeparatorProps>`
+  width: ${p => p.width || 0}em;
+  height: ${p => p.height || 0}em;
+`
+
 export const Text = styled.span<ColorProps & { fontSize?: string }>`
   color: ${p => (p.color ? p.theme.color[p.color] : p.theme.color.primary)};
   font-size: ${p => p.fontSize || '1em'};
