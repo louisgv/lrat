@@ -1,6 +1,6 @@
 {
   "name": "lra",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "homepage": "https://louisgv.ga/lra",
   "private": true,
   "dependencies": {
