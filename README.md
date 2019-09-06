@@ -1,4 +1,12 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# L's React App Template
+
+What's included:
+
+1. craco
+2. typescript (non-strict)
+3. changelog generator
+4. styled-components
+5. hot-loader
 
 ## Available Scripts
 
