@@ -1,23 +1,17 @@
 {
-  "name": "lra",
-  "version": "0.2.3",
-  "homepage": "https://louisgv.ga/lra",
-  "repository": "louisgv/lra",
+  "name": "lrat",
+  "version": "0.3.0",
+  "homepage": "https://louisgv.ga/lrat",
+  "repository": "louisgv/lrat",
   "private": true,
   "dependencies": {
-    "@craco/craco": "^5.4.0",
     "@hot-loader/react-dom": "^16.9.0",
-    "@types/jest": "24.0.18",
-    "@types/node": "12.7.4",
-    "@types/react": "16.9.2",
-    "@types/react-dom": "16.9.0",
-    "@types/styled-components": "^4.1.18",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "react-hot-loader": "^4.12.12",
     "react-scripts": "3.1.1",
     "styled-components": "^4.3.2",
-    "typescript": "3.6.2"
+    "styled-system": "^5.1.1"
   },
   "scripts": {
     "predeploy": "craco build",
@@ -32,7 +26,14 @@
     "extends": "react-app"
   },
   "devDependencies": {
-    "craco-plugin-react-hot-reload": "^0.1.0"
+    "@craco/craco": "^5.4.0",
+    "@types/jest": "24.0.18",
+    "@types/node": "12.7.4",
+    "@types/react": "16.9.2",
+    "@types/react-dom": "16.9.0",
+    "@types/styled-components": "^4.1.18",
+    "craco-plugin-react-hot-reload": "^0.1.0",
+    "typescript": "3.6.2"
   },
   "browserslist": {
     "production": [
