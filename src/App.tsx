@@ -2,12 +2,10 @@ import React from 'react'
 
 import { hot } from 'react-hot-loader/root'
 import { ThemeProvider } from 'styled-components/macro'
-import { theme, Global, Separator } from './styles'
 
-import { Header } from 'components/Header'
-import { Footer } from 'components/Footer'
-
-import { Text } from 'styles'
+import { Header } from 'lrct/components/Header'
+import { Footer } from 'lrct/components/Footer'
+import { theme, Global, Separator, Text } from 'lrct/styles'
 
 import { version, repository } from '../package.json'
 

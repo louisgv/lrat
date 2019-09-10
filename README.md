@@ -2,12 +2,13 @@
 
 What's included:
 
-1. https (mkcert)
-2. craco
-3. typescript (non-strict)
-4. changelog generator
-5. styled-components
-6. hot-loader
+1. [https](https://github.com/FiloSottile/mkcert)
+2. [craco](https://github.com/sharegate/craco)
+3. [typescript](https://www.typescriptlang.org/)
+4. [auto-changelog](https://github.com/CookPete/auto-changelog)
+5. [styled-components](https://styled-components.com)
+6. [hot-loader](https://github.com/gaearon/react-hot-loader)
+7. [lrct](https://github.com/louisgv/lrct) - **Clone, make your own component library, and replace lrct!**
 
 ## Https instruction
 

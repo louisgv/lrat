@@ -1,8 +1,7 @@
-import styled, { createGlobalStyle } from 'styled-components/macro'
-import { DefaultTheme } from 'styled-components'
-import { flexCenterColumn } from './Mixin';
+import { DefaultTheme } from 'styled-components/macro'
 
 export const theme: DefaultTheme = {
+  name: 'Default',
   color: {
     text: '#FFFFFF',
     primaryText: '#212121',
@@ -46,56 +45,3 @@ export const theme: DefaultTheme = {
     code: "'Source Code Pro', monospace"
   }
 }
-
-export const Global = createGlobalStyle`
-  html,
-  body,
-  #root {
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    width: 100%;
-    overflow: hidden;
-    user-select: none;
-    font-family: ${p => p.theme.font.text};
-
-    ${flexCenterColumn};
-  }
-
-  a {
-    color: ${p => p.theme.color.primary};
-    text-decoration: none;
-  }
-
-  a:visited {
-    color: ${p => p.theme.color.accentColor};
-  }
-
-  a:hover,
-  a:visited:hover {
-    color: ${p => p.theme.color.darkPrimary};
-  }
-
-  ::-webkit-scrollbar {
-    width: 9px;
-    height: 9px;
-  }
-
-  ::-webkit-scrollbar-track {
-    background: ${p => p.theme.color.primary};
-  }
-
-  ::-webkit-scrollbar-thumb {
-    background: ${p => p.theme.color.darkPrimary};
-  }
-`
-
-export const Separator = styled.div<SeparatorProps>`
-  width: ${p => p.width || 0}em;
-  height: ${p => p.height || 0}em;
-`
-
-export const Text = styled.span<ColorProps & { fontSize?: string }>`
-  color: ${p => (p.color ? p.theme.color[p.color] : p.theme.color.primary)};
-  font-size: ${p => p.fontSize || '1em'};
-`
