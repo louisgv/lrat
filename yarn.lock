@@ -6116,10 +6116,10 @@ lower-case@^1.1.1:
   resolved "https://registry.yarnpkg.com/lower-case/-/lower-case-1.1.4.tgz#9a2cabd1b9e8e0ae993a4bf7d5875c39c42e8eac"
   integrity sha1-miyr0bno4K6ZOkv31YdcOcQujqw=
 
-lrct@^0.3.0:
-  version "0.3.0"
-  resolved "https://registry.yarnpkg.com/lrct/-/lrct-0.3.0.tgz#e3a8dba9d352325087bc279a41ea14aff351c9f1"
-  integrity sha512-l+9RVle74nZu/Yz9Ic1qj/t0Ie5D/qtPxqhg5weI12UGuMa0+etdcEr2RHalVooPO/osh6zWWb66wMPzXS0Xfw==
+lrct@^0.3.4:
+  version "0.3.4"
+  resolved "https://registry.yarnpkg.com/lrct/-/lrct-0.3.4.tgz#c9b4ba3bca19974757d7609c28abb7de97c75b97"
+  integrity sha512-mKndnhRNgjL5AMsPk+z5e0hCD2VfeoastJz9kUSf03O78fieR8eB0JyzVjF+JB8FxtLXcVZ4IdFwBskMpolquQ==
 
 lru-cache@^5.1.1:
   version "5.1.1"
