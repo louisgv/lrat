@@ -1,27 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
-
   <head>
     <meta charset="utf-8" />
 
-    <title> 🚀 LRA</title>
-    <meta name="description"
-          content="L's React App Template" />
+    <title>🚀 LRAT</title>
+    <meta name="description" content="L's React App Template" />
+    <meta name="keywords" content="React,App,Template,Starter" />
+    <meta name="author" content="@litbid" />
 
-    <link rel="shortcut icon"
-          href="%PUBLIC_URL%/favicons/favicon.ico" />
-    <meta name="viewport"
-          content="width=device-width, initial-scale=1" />
-    <meta name="theme-color"
-          content="#000000" />
-    <link rel="apple-touch-icon"
-          href="%PUBLIC_URL%/favicons/logo192.png" />
+    <link rel="shortcut icon" href="%PUBLIC_URL%/favicons/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/favicons/logo192.png" />
     <!--
       manifest.json provides metadata used when your web app is installed on a
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
     -->
-    <link rel="manifest"
-          href="%PUBLIC_URL%/manifest.json" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
     <!--
       Notice the use of %PUBLIC_URL% in the tags above.
       It will be replaced with the URL of the `public` folder during the build.
@@ -31,114 +26,101 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <style media="screen">
-      body {
-        margin: 0 auto;
-      }
-
-      #ns-container {
-        font-family: Arial, Helvetica, sans-serif;
-        background: black;
-        color: white;
-        width: 100vw;
-        height: 100vh;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        font-size: 1.8rem;
-        text-align: center;
-      }
-
-      #ns-container h1 {
-        font-size: 4.5em;
-        margin: 0;
-      }
-
-      @media (max-width: 700px) {
-        #ns-container h1 {
-          font-size: 2em;
+    <noscript>
+      <style media="screen">
+        body {
+          margin: 0 auto;
         }
-      }
 
-      .rainbow {
-        box-sizing: content-box;
-        cursor: pointer;
-        border: none;
-        font: Helvetica, sans-serif;
-        color: rgba(0, 0, 0, 0);
-        text-align: center;
-        text-overflow: clip;
+        #ns-container {
+          font-family: Arial, Helvetica, sans-serif;
+          background: black;
+          color: white;
+          width: 100vw;
+          height: 100vh;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          font-size: 1.8rem;
+          text-align: center;
+        }
 
-        text-shadow:
-          -1.8px 0 0 rgb(217, 31, 38),
-          -1.8px 0 0 rgb(226, 91, 14),
-          -1.8px 0 0 rgb(245, 221, 8),
-          -1.8px 0 0 rgb(5, 148, 68),
-          -1.8px 0 0 rgb(2, 135, 206),
-          -1.8px 0 0 rgb(4, 77, 145),
-          -1.8px 0 0 rgb(42, 21, 113);
+        #ns-container h1 {
+          font-size: 4.5em;
+          margin: 0;
+        }
 
-        transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
-      }
+        @media (max-width: 700px) {
+          #ns-container h1 {
+            font-size: 2em;
+          }
+        }
 
-      .rainbow.active,
-      .rainbow:hover {
-        font-weight: 100;
-        letter-spacing: 0.18em;
+        .rainbow {
+          box-sizing: content-box;
+          cursor: pointer;
+          border: none;
+          font: Helvetica, sans-serif;
+          color: rgba(0, 0, 0, 0);
+          text-align: center;
+          text-overflow: clip;
 
-        text-shadow:
-          0.9px 0 0 rgba(217, 31, 38, 0.85),
-          1.8px 0 0 rgba(226, 91, 14, 0.75),
-          3.6px 0 0 rgba(245, 221, 8, 0.8),
-          7.2px 0 0 rgba(5, 148, 68, 0.85),
-          14.4px 0 0 rgba(2, 135, 206, 0.9),
-          28.8px 0 0 rgba(4, 77, 145, 0.95),
-          57.6px 0 0 rgba(42, 21, 113, 1);
-      }
+          text-shadow: -1.8px 0 0 rgb(217, 31, 38), -1.8px 0 0 rgb(226, 91, 14),
+            -1.8px 0 0 rgb(245, 221, 8), -1.8px 0 0 rgb(5, 148, 68),
+            -1.8px 0 0 rgb(2, 135, 206), -1.8px 0 0 rgb(4, 77, 145),
+            -1.8px 0 0 rgb(42, 21, 113);
 
-      .rainbow.mobile {
-        animation: rainbow-pulse 1.8s ease-in-out infinite;
-      }
+          transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+        }
 
-      @keyframes rainbow-pulse {
-
-        0%,
-        100% {
+        .rainbow.active,
+        .rainbow:hover {
           font-weight: 100;
           letter-spacing: 0.18em;
-          text-shadow:
-            0.9px 0 0 rgba(217, 31, 38, 0.85),
-            1.8px 0 0 rgba(226, 91, 14, 0.75),
-            3.6px 0 0 rgba(245, 221, 8, 0.8),
-            7.2px 0 0 rgba(5, 148, 68, 0.85),
-            14.4px 0 0 rgba(2, 135, 206, 0.9),
-            28.8px 0 0 rgba(4, 77, 145, 0.95),
-            57.6px 0 0 rgba(42, 21, 113, 1);
+
+          text-shadow: 0.9px 0 0 rgba(217, 31, 38, 0.85),
+            1.8px 0 0 rgba(226, 91, 14, 0.75), 3.6px 0 0 rgba(245, 221, 8, 0.8),
+            7.2px 0 0 rgba(5, 148, 68, 0.85), 14.4px 0 0 rgba(2, 135, 206, 0.9),
+            28.8px 0 0 rgba(4, 77, 145, 0.95), 57.6px 0 0 rgba(42, 21, 113, 1);
         }
 
-        50% {
-          text-shadow:
-            -1.8px 0 0 rgb(217, 31, 38),
-            -1.8px 0 0 rgb(226, 91, 14),
-            -1.8px 0 0 rgb(245, 221, 8),
-            -1.8px 0 0 rgb(5, 148, 68),
-            -1.8px 0 0 rgb(2, 135, 206),
-            -1.8px 0 0 rgb(4, 77, 145),
-            -1.8px 0 0 rgb(42, 21, 113);
-          font-weight: 900;
-          letter-spacing: normal;
+        .rainbow.mobile {
+          animation: rainbow-pulse 1.8s ease-in-out infinite;
         }
-      }
-    </style>
+
+        @keyframes rainbow-pulse {
+          0%,
+          100% {
+            font-weight: 100;
+            letter-spacing: 0.18em;
+            text-shadow: 0.9px 0 0 rgba(217, 31, 38, 0.85),
+              1.8px 0 0 rgba(226, 91, 14, 0.75),
+              3.6px 0 0 rgba(245, 221, 8, 0.8), 7.2px 0 0 rgba(5, 148, 68, 0.85),
+              14.4px 0 0 rgba(2, 135, 206, 0.9),
+              28.8px 0 0 rgba(4, 77, 145, 0.95), 57.6px 0 0 rgba(42, 21, 113, 1);
+          }
+
+          50% {
+            text-shadow: -1.8px 0 0 rgb(217, 31, 38),
+              -1.8px 0 0 rgb(226, 91, 14), -1.8px 0 0 rgb(245, 221, 8),
+              -1.8px 0 0 rgb(5, 148, 68), -1.8px 0 0 rgb(2, 135, 206),
+              -1.8px 0 0 rgb(4, 77, 145), -1.8px 0 0 rgb(42, 21, 113);
+            font-weight: 900;
+            letter-spacing: normal;
+          }
+        }
+      </style>
     </noscript>
   </head>
 
   <body>
     <noscript>
       <div id="ns-container">
-        <a href="https://en.wikipedia.org/wiki/JavaScript"
-           class="rainbow mobile">
+        <a
+          href="https://en.wikipedia.org/wiki/JavaScript"
+          class="rainbow mobile"
+        >
           <h1>JavaScript</h1>
         </a>
         <br />
@@ -160,5 +142,4 @@
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
   </body>
-
 </html>
