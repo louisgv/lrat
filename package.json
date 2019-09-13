@@ -15,7 +15,7 @@
     "styled-system": "^5.1.1"
   },
   "scripts": {
-    "predeploy": "craco build",
+    "predeploy": "yarn version && craco build",
     "deploy": "npx gh-pages -d build",
     "start": "craco start",
     "build": "craco build",
