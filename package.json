@@ -1,6 +1,6 @@
 {
   "name": "lrat",
-  "version": "0.4.2",
+  "version": "0.4.4",
   "homepage": "https://louisgv.ga/lrat",
   "repository": "louisgv/lrat",
   "private": true,
@@ -15,7 +15,7 @@
     "styled-system": "^5.1.2"
   },
   "scripts": {
-    "predeploy": "craco build",
+    "predeploy": "yarn version && craco build",
     "deploy": "npx gh-pages -d build",
     "start": "craco start",
     "build": "craco build",
