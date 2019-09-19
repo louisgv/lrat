@@ -3,9 +3,9 @@ import React from 'react'
 import { hot } from 'react-hot-loader/root'
 import { ThemeProvider } from 'styled-components/macro'
 
-import { Header } from 'lrct/components/Header'
-import { Footer } from 'lrct/components/Footer'
-import { theme, Global, Separator, Text } from 'lrct/styles'
+import { Header } from 'lrct/dist/components/Header'
+import { Footer } from 'lrct/dist/components/Footer'
+import { theme, Global, Separator, Text } from 'lrct/dist/styles'
 
 import { version, repository } from '../package.json'
 

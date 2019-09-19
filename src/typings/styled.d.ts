@@ -1,1 +1,1 @@
-import 'lrct/typings/styled'
+import 'lrct/dist/typings/styled'

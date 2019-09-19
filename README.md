@@ -29,6 +29,10 @@ The lock should now be green ✅
 
 In the project directory, you can run:
 
+### `deploy`
+
+Deploy the app via gh-pages.
+
 ### `start`
 
 Runs the app in the development mode.<br>
